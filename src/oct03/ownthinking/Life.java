@@ -22,5 +22,4 @@ public class Life {
 		l1.excite();
 		l1.enjoy();
 	}
-
 }
