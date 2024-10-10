@@ -1,7 +1,7 @@
 package oct03.ownthinking;
 
 public class Life {
-	String name = "Aman";
+	String name = "Aman kr";
 	int age = 23;
 
 	public void happy() {
