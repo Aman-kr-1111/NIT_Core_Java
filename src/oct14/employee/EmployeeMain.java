@@ -3,7 +3,7 @@ package oct14.employee;
 public class EmployeeMain {
 
 	public static void main(String[] args) {
-		Employee[] emp = new Employee[5];
+		Employee[] emp = new Employee[2];
 
 		for (int i = 0; i < emp.length; i++) {
 			System.out.println("Enter details for Employee " + (i + 1) + " !!!");
