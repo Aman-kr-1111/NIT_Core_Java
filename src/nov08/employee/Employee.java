@@ -100,9 +100,9 @@ public class Employee {
 		this.annualSalary = annualSalary;
 	}
 
-	public Employee(double salesAmount) {
-		super();
+	public Employee(double salesAmount, double commissionRate) {
 		this.salesAmount = salesAmount;
+		this.hourlyRate = commissionRate;
 	}
 
 }
