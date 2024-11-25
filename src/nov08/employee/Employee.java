@@ -100,9 +100,20 @@ public class Employee {
 		this.annualSalary = annualSalary;
 	}
 
-	public Employee(double salesAmount, double commissionRate) {
+	public Employee(double salesAmount, float commissionRate) {
 		this.salesAmount = salesAmount;
 		this.hourlyRate = commissionRate;
 	}
 
+	public double calculateSalary() {
+		return hoursWorked * hourlyRate;
+	}
+
+	public double calculateSalary(double annualSalary) {
+		return annualSalary / 12;
+	}
+
+	public double calculateSalary(double salesAmount, double commissionRate) {
+		return salesAmount * commissionRate;
+	}
 }
